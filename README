@@ -1,0 +1,6 @@
+This patch file updates the ruby aws-sdk gem. To use, copy this file into your
+application and require it _after_ you require aws-sdk.
+
+Once set up, you will be able to assign an elastic IP address to an ec2
+instance that resides in a VPC. Note - the IP address must also be assigned
+in the VPC, otherwise it will not be available.
